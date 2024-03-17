@@ -1,6 +1,6 @@
 # Data Analysis and Validation
 
-This section outlines the process for analyzing and validating the NED-2 repeatability dataset.
+This script outlines the process for analyzing and validating the NED-2 repeatability dataset.
 
 This script is designed to evaluate the repeatability of a robotic system by executing a series of movements to a defined reference pose and measuring the deviation from this pose over multiple repetitions. The key steps include:
 
