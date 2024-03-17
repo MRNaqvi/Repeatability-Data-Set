@@ -2,6 +2,14 @@
 
 This section outlines the process for analyzing and validating the NED-2 repeatability dataset.
 
+This script is designed to evaluate the repeatability of a robotic system by executing a series of movements to a defined reference pose and measuring the deviation from this pose over multiple repetitions. The key steps include:
+
+Defining a Reference Pose: Specifies a target position and orientation for the robot.
+**Executing Movements:** The robot is instructed to move to the reference pose multiple times.
+**Recording Final Poses:** After each movement, the final pose of the robot is recorded.
+**Analyzing Deviations:** The script calculates the deviation of each final pose from the reference pose, then computes the average deviation across all repetitions.
+This process helps in assessing the precision and reliability of the robot's positioning capabilities, critical aspects of robotic systems used in applications requiring high levels of accuracy.
+
 ## Repeatability Capability Data Analysis
 
 Given a NED-2 repeatability dataset `D` consisting of `N` samples, our objective is to divide this dataset into `k` equal sets for analysis, where `k = 4`. Let `D_i` represent the `i^{th}` set. The division process is as follows:
