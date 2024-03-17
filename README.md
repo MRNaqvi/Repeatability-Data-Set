@@ -1,6 +1,6 @@
 # Data Analysis and Validation
 
-This script outlines the process for analyzing and validating the NED-2 repeatability dataset.
+This script outlines the process for analyzing and validating the NED-2 repeatability dataset using https://docs.niryo.com/dev/pyniryo/v1.1.2/en/index.html.
 
 This script is designed to evaluate the repeatability of a robotic system by executing a series of movements to a defined reference pose and measuring the deviation from this pose over multiple repetitions. The key steps include:
 
